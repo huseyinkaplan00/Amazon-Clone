@@ -1,0 +1,89 @@
+//deneme
+
+//mid slider products part starts
+.sec-2 {
+  width: 100%;
+  height: 315px;
+  padding: 25px;
+  padding-top: 0;
+  padding-bottom: 25px;
+  .slide-sec {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 10px 20px;
+    overflow-x: hidden;
+    background-color: white;
+    position: relative;
+
+    h3 {
+      font-size: 20px;
+      padding-bottom: 5px;
+    }
+    .product-slide {
+      display: flex;
+      margin-top: 5px;
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+      ::-webkit-scrollbar {
+        background-color: transparent;
+        height: 7px;
+        cursor: pointer;
+      }
+      ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      li {
+        list-style: none;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        img {
+          height: 200px;
+        }
+      }
+    }
+    .l-btn,
+    .r-btn {
+      background-color: rgb(255, 255, 255, 1);
+      height: 90px;
+      width: 50px;
+      text-align: center;
+      cursor: pointer;
+      top: 35%;
+      position: absolute;
+      border: 3px solid transparent;
+    }
+    .l-btn {
+      border-radius: 0 5px 5px 0;
+      left: 20px;
+      i {
+        color: rgb(54, 54, 54);
+        position: absolute;
+        font-size: 30px;
+        top: 35%;
+        left: 13%;
+        right: 13%;
+      }
+    }
+    .l-btn:hover {
+      border: 3px solid rgb(2, 150, 150);
+    }
+    .r-btn {
+      border-radius: 5px 0 0 5px;
+      right: 20px;
+      i {
+        color: rgb(54, 54, 54);
+        position: absolute;
+        font-size: 30px;
+        top: 35%;
+        left: 13%;
+        right: 13%;
+      }
+    }
+    .r-btn:hover {
+      border: 3px solid rgb(2, 150, 150);
+    }
+  }
+}

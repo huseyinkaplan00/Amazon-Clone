@@ -1,0 +1,81 @@
+.sidebar {
+  background-color: white;
+  width: 380px;
+  height: 100%;
+  transform: translateX(-390px);
+  transition: all 0.3s;
+  position: absolute;
+  z-index: 101;
+  //The overflow-y property specifies whether to clip the content, add a scroll bar, or display overflow content of a block-level element, when it overflows at the top and bottom edges.
+  overflow-y: scroll;
+  box-shadow: 2px 2px 30px black;
+  .hdn-head {
+    background-color: #232f3e;
+    height: 60px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    h2 {
+      line-height: 60px;
+    }
+  }
+  .fa-angle-right {
+    color: rgb(27, 27, 27);
+  }
+  .hdn-content {
+    h3 {
+      padding: 20px 25px;
+      color: rgb(39, 39, 39);
+    }
+    ul {
+      padding-bottom: 9px;
+      div {
+        display: flex;
+        cursor: pointer;
+        transition: all 0.2s;
+        font-size: 14px;
+        color: rgb(70, 70, 70);
+        padding: 15px 25px;
+        justify-content: space-between;
+        &:hover {
+          background-color: rgb(230, 227, 227);
+        }
+      }
+    }
+  }
+  .line1 {
+    height: 0.5px;
+    width: 100%;
+    background-color: rgb(172, 172, 172);
+  }
+}
+.fa-xmark {
+  top: 20px;
+  left: 400px;
+  position: absolute;
+  font-size: 30px;
+  display: none;
+  z-index: 101;
+}
+.black {
+  position: absolute;
+
+  width: 0%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  .black.active {
+    width: 100%;
+    z-index: 100;
+  }
+}
+.sidebar.active {
+  transform: translateX(0);
+}
+.fa-xmark.active {
+  display: block;
+}
+.black.active-1 {
+  top: 70px;
+  width: 100%;
+  z-index: 99;
+}

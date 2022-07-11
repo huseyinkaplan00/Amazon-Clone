@@ -1,0 +1,222 @@
+//product section css starts
+
+//deneme
+.container-111 {
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //opacity to slider
+  background: linear-gradient(to bottom, transparent, #eaeded 30%);
+  //   background: linear-gradient(5deg, red, blue);
+  .product-comp1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px 0;
+    justify-content: space-around;
+    .box1 {
+      font-family: "Amazon Ember", Arial, sans-serif;
+      width: 315px;
+      height: 420px;
+      min-height: 420px;
+      background-color: white;
+      h3 {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 21px !important;
+        line-height: 27.3px !important;
+        color: rgb(43, 42, 42);
+      }
+      a {
+        font-size: 13px;
+        margin-left: 20px;
+        display: block;
+        padding-top: 20px;
+      }
+      div {
+        :first-child {
+          p {
+            font-size: 14px;
+            padding: 12px 0;
+          }
+        }
+        img {
+          width: 167px;
+          height: 120px;
+          cursor: pointer;
+          margin-left: -20px;
+          margin-right: 0;
+        }
+      }
+    }
+    .box-a1 {
+      overflow: hidden;
+      background-color: white;
+      div {
+        display: inline-block;
+      }
+      span {
+        display: block;
+        font-size: 13px;
+        margin-left: 20px;
+      }
+    }
+    .box-b1 {
+      img {
+        height: 276px;
+        width: 315px;
+      }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      .best {
+        background-color: white;
+        height: 130px;
+        width: 315px;
+        h3 {
+          font-size: 21px;
+          margin: 20px;
+          margin-bottom: 15px;
+        }
+        button {
+          border-radius: 7px;
+          box-shadow: 1px 2px 5px rgb(211, 207, 207);
+          color: rgb(43, 42, 42);
+          background-color: #ffd814;
+          width: 280px;
+          margin-left: 20px;
+          height: 30px;
+          border: none;
+        }
+      }
+    }
+    .box-c1 {
+      div {
+        img {
+          margin: 0 20px;
+          width: 275px;
+          cursor: pointer;
+          height: 276px;
+        }
+      }
+    }
+  }
+}
+
+//deneme
+
+.container-1 {
+  position: absolute;
+  z-index: 1;
+  top: 230px;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //opacity to slider
+  background: linear-gradient(to bottom, transparent, #eaeded 30%);
+  //   background: linear-gradient(5deg, red, blue);
+  .product-comp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px 0;
+    justify-content: space-around;
+    .box {
+      font-family: "Amazon Ember", Arial, sans-serif;
+      width: 315px;
+      height: 420px;
+      min-height: 420px;
+      background-color: white;
+      h3 {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 21px !important;
+        line-height: 27.3px !important;
+        color: rgb(43, 42, 42);
+      }
+      a {
+        font-size: 13px;
+        margin-left: 20px;
+        display: block;
+        padding-top: 20px;
+      }
+      div {
+        :first-child {
+          p {
+            font-size: 14px;
+            padding: 12px 0;
+          }
+        }
+        img {
+          width: 167px;
+          height: 120px;
+          cursor: pointer;
+          margin-left: -20px;
+          margin-right: 0;
+        }
+      }
+    }
+    .box-a {
+      overflow: hidden;
+      background-color: white;
+      div {
+        display: inline-block;
+      }
+      span {
+        display: block;
+        font-size: 13px;
+        margin-left: 20px;
+      }
+    }
+    .box-b {
+      img {
+        height: 276px;
+        width: 315px;
+      }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      .best {
+        background-color: white;
+        height: 130px;
+        width: 315px;
+        h3 {
+          font-size: 21px;
+          margin: 20px;
+          margin-bottom: 15px;
+        }
+        button {
+          border-radius: 7px;
+          box-shadow: 1px 2px 5px rgb(211, 207, 207);
+          color: rgb(43, 42, 42);
+          background-color: #ffd814;
+          width: 280px;
+          margin-left: 20px;
+          height: 30px;
+          border: none;
+        }
+      }
+    }
+    .box-c {
+      div {
+        img {
+          margin: 0 20px;
+          width: 275px;
+          cursor: pointer;
+          height: 276px;
+        }
+      }
+    }
+  }
+}

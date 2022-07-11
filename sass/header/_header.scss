@@ -1,0 +1,266 @@
+.first {
+  width: 100%;
+  height: 70px;
+  background-color: #131a22;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /*  sütun, kolon olarak sıralamak istersek içerisindeki divleri alt alta, yukarıdan aşşağı doğru flex-direction:column kullanıyoruz.
+  default olarak :row ile geliyor ve yan yana sıralanıyor... */
+  justify-content: space-between;
+  .logo {
+    flex: 0.18;
+    margin-right: 10px;
+    justify-content: space-between;
+  }
+  object:hover {
+    border: 1px solid white;
+  }
+
+  .map {
+    border: 1px solid transparent;
+    border-radius: 3px;
+
+    i {
+      margin-top: 17px;
+      padding-left: 5px;
+      font-size: 17px;
+    }
+    div {
+      padding: 5px;
+      display: flex;
+      cursor: pointer;
+      flex-direction: column;
+
+      span:first-child {
+        font-weight: 400;
+        font-size: 12px;
+      }
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  .map:hover {
+    border: 1px solid white;
+  }
+
+  .input {
+    width: 100%;
+    background-color: white;
+    flex: 0.53;
+    border-radius: 3px;
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+
+    .fa-search {
+      color: rgb(51, 51, 51);
+      /* Top - Bottom , right - left */
+      padding: 10px 15px;
+      font-size: 20px;
+      cursor: pointer;
+      background-color: #febd69;
+      /* Top / right / bottom / left  */
+      border-radius: 0 5px 5px 0;
+    }
+    .fa-search:hover {
+      background-color: #f08804;
+    }
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-right: 1px solid gray;
+      background-color: rgb(236, 234, 234);
+      padding: 6px 0;
+
+      span {
+        border-radius: 5px 0 0 5px;
+        color: rgb(51, 51, 51);
+        padding: 6px 5px;
+        font-size: 13px;
+        cursor: pointer;
+      }
+
+      .fa-caret-down {
+        color: rgb(51, 51, 51);
+        cursor: pointer;
+        padding: 5px;
+      }
+    }
+    div:hover {
+      background-color: rgb(204, 204, 202);
+    }
+
+    input {
+      outline: none;
+      width: 80%;
+      font-size: 15px;
+      padding: 10px 2px;
+      border: none;
+    }
+  }
+
+  .right {
+    justify-content: space-between;
+    flex: 0.29;
+    margin-right: 10px;
+    align-items: center;
+
+    .lang {
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      border: 1px solid transparent;
+      border-radius: 3px;
+
+      object {
+        width: 30px;
+        height: 30px;
+        padding: 4px;
+        margin: 0;
+        padding-top: 10px;
+        cursor: pointer;
+      }
+
+      i {
+        padding: 0;
+        margin: 0;
+        color: gray;
+      }
+    }
+  }
+
+  .sign {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 6px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    span {
+      display: inline-block;
+      width: 100%;
+      font-weight: bold;
+    }
+
+    :first-child {
+      font-weight: 400;
+      font-size: 12px;
+    }
+  }
+  .sign:hover {
+    border: 1px solid white;
+  }
+
+  object {
+    width: 157px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    .ac {
+      span {
+        font-size: 15px;
+        margin-right: 5px;
+        font-weight: bold;
+      }
+    }
+
+    .ca {
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .fa-shopping-cart {
+      font-size: 30px;
+    }
+    span,
+    i {
+      color: white;
+    }
+  }
+  .cart {
+    align-items: flex-end;
+    position: relative;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    p {
+      position: absolute;
+      font-weight: bolder;
+      color: #f08804;
+      top: 6px;
+      left: 25px;
+    }
+  }
+  .cart:hover {
+    border: 1px solid white;
+  }
+}
+.second {
+  width: 100%;
+  height: 42px;
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+  li {
+    padding: 5px 11px;
+
+    font-size: 16px;
+    margin: 7px 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+  }
+
+  ul {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .second-1 {
+    flex: 0.06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      display: flex;
+      align-items: center;
+      padding-left: 17px;
+      span {
+        padding: 5px 5px;
+        cursor: pointer;
+      }
+      i {
+        font-size: 20px;
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-radius: 3px;
+      }
+    }
+  }
+  //sorun var burayı sor içine yazınca ayrı dışına yazınca ayrı veriyor hover ı
+  .second-1:hover {
+    border-radius: 3px;
+    border: 1px solid white;
+  }
+
+  .second-2 {
+    li:hover {
+      border: 1px solid white;
+    }
+  }
+}
